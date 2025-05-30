@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+
+:root {
+  font-family: "Quicksand", system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 100;
+  font-weight: 200;
+  font-weight: 700;
+  font-weight: 400;
+  font-weight: 500;
+  font-size: medium;
+
+  background: "red";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
