@@ -5,6 +5,7 @@ import TestCheckBox from "../../component/examples/TestCheckBox";
 import TestFloatingActionButton from "../../component/examples/TestFloatingActonButton";
 import TestRadioButton from "../../component/examples/TestRadioButton";
 import TestRating from "../../component/examples/TestRating";
+import TestSwitch from "../../component/examples/TestSwitch";
 
 const TestPage = () => {
   return (
@@ -21,7 +22,8 @@ const TestPage = () => {
           {/* <TestCheckBox /> */}
           {/* <TestFloatingActionButton /> */}
           {/* <TestRadioButton /> */}
-          <TestRating />
+          {/* <TestRating /> */}
+          <TestSwitch />
         </Box>
       </Container>
     </React.Fragment>
