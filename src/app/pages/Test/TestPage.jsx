@@ -1,6 +1,10 @@
 import { Box, Container, Typography } from "@mui/material";
 import React from "react";
 import TestButton from "../../component/examples/TestButton";
+import TestCheckBox from "../../component/examples/TestCheckBox";
+import TestFloatingActionButton from "../../component/examples/TestFloatingActonButton";
+import TestRadioButton from "../../component/examples/TestRadioButton";
+import TestRating from "../../component/examples/TestRating";
 
 const TestPage = () => {
   return (
@@ -9,8 +13,15 @@ const TestPage = () => {
         <Typography variant="h5" color="secondary" align="center" py={2}>
           Test Page
         </Typography>
-        <Box component={"div"} sx={{ background: "violet", borderRadius: 2 }}>
-          <TestButton />
+        <Box
+          component={"div"}
+          sx={{ background: "violet", borderRadius: 2, p: 2 }}
+        >
+          {/* <TestButton /> */}
+          {/* <TestCheckBox /> */}
+          {/* <TestFloatingActionButton /> */}
+          {/* <TestRadioButton /> */}
+          <TestRating />
         </Box>
       </Container>
     </React.Fragment>
