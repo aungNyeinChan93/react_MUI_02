@@ -9,11 +9,15 @@ import "./index.css";
 import { RouterProvider } from "react-router";
 import router from "./app/router.js";
 import ThemeProvider from "./app/contexts/ThemeProvider.jsx";
+import { store } from "./app/store.js";
+import { Provider } from "react-redux";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <ThemeProvider>
-      <RouterProvider router={router} />
-    </ThemeProvider>
+    <Provider store={store}>
+      <ThemeProvider>
+        <RouterProvider router={router} />
+      </ThemeProvider>
+    </Provider>
   </StrictMode>
 );
