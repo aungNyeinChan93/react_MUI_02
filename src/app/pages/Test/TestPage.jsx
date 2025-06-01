@@ -8,6 +8,10 @@ import TestFloatingActionButton from "../../component/examples/TestFloatingActon
 import TestRadioButton from "../../component/examples/TestRadioButton";
 import TestRating from "../../component/examples/TestRating";
 import TestSwitch from "../../component/examples/TestSwitch";
+import TestSelect from "../../component/examples/TestSelect";
+import TestSlider from "../../component/examples/TestSlider";
+import TestGrid from "../../component/examples/TestGrid";
+import TestTextField from "../../component/examples/TestTextField";
 
 const TestPage = () => {
   const { theme } = useContext(ThemeContext);
@@ -27,14 +31,18 @@ const TestPage = () => {
         </Typography>
         <Box
           component={"div"}
-          sx={{ background: "violet", borderRadius: 2, p: 2 }}
+          sx={{ background: "cyan", borderRadius: 2, p: 2, minHeight: 400 }}
         >
           {/* <TestButton /> */}
           {/* <TestCheckBox /> */}
           {/* <TestFloatingActionButton /> */}
           {/* <TestRadioButton /> */}
           {/* <TestRating /> */}
-          <TestSwitch />
+          {/* <TestSwitch /> */}
+          {/* <TestSelect /> */}
+          {/* <TestSlider /> */}
+          {/* <TestGrid /> */}
+          {/* <TestTextField /> */}
         </Box>
       </Container>
     </React.Fragment>
