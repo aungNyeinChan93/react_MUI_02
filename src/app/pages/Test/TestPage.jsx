@@ -23,6 +23,7 @@ import { useGetDogsQuery } from "../../services/dogData";
 import TestAvator from "../../component/examples/TestAvator";
 import TestFavTeam from "../../component/examples/TestFavTeam";
 import TestBadge from "../../component/examples/TestBadge";
+import TestTable from "../../component/examples/TestTable";
 
 const TestPage = () => {
   const { theme } = useContext(ThemeContext);
@@ -103,7 +104,8 @@ const TestPage = () => {
           </Button> */}
           {/* <TestAvator /> */}
           {/* <TestFavTeam /> */}
-          <TestBadge />
+          {/* <TestBadge /> */}
+          <TestTable />
         </Box>
       </Container>
     </React.Fragment>
