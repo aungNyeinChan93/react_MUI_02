@@ -22,6 +22,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { useGetDogsQuery } from "../../services/dogData";
 import TestAvator from "../../component/examples/TestAvator";
 import TestFavTeam from "../../component/examples/TestFavTeam";
+import TestBadge from "../../component/examples/TestBadge";
 
 const TestPage = () => {
   const { theme } = useContext(ThemeContext);
@@ -101,7 +102,8 @@ const TestPage = () => {
             +
           </Button> */}
           {/* <TestAvator /> */}
-          <TestFavTeam />
+          {/* <TestFavTeam /> */}
+          <TestBadge />
         </Box>
       </Container>
     </React.Fragment>
