@@ -20,6 +20,8 @@ import {
 } from "../../features/counter/counterSlice";
 import { useDispatch, useSelector } from "react-redux";
 import { useGetDogsQuery } from "../../services/dogData";
+import TestAvator from "../../component/examples/TestAvator";
+import TestFavTeam from "../../component/examples/TestFavTeam";
 
 const TestPage = () => {
   const { theme } = useContext(ThemeContext);
@@ -98,6 +100,8 @@ const TestPage = () => {
           >
             +
           </Button> */}
+          {/* <TestAvator /> */}
+          <TestFavTeam />
         </Box>
       </Container>
     </React.Fragment>
